@@ -4,7 +4,7 @@ from selene import browser, have
 from data.items import Item
 
 
-class AddItemsToCard:
+class AddItemsToCart:
     def open_to_cart(self):
         with allure.step("Открываем корзину"):
             browser.open('/cart')
