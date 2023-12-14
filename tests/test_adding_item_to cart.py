@@ -36,7 +36,7 @@ def test_adding_virtual_gift_card_to_cart():
         total_price="25.00"
     )
 
-    add_items_to_cart = AddItemsToCard()
+    add_items_to_cart = AddItemsToCart()
 
     # GIVEN
     add_items_to_cart.open_browser_with_added_item(url="/2/1", data={
@@ -63,7 +63,7 @@ def test_adding_simple_computer_to_cart():
         total_price="1600.00"
     )
 
-    add_items_to_cart = AddItemsToCard()
+    add_items_to_cart = AddItemsToCart()
 
     # GIVEN
     add_items_to_cart.open_browser_with_added_item(url="/75/1", data={
@@ -89,7 +89,7 @@ def test_adding_own_computer_to_cart():
         total_price="1265.00"
     )
 
-    add_items_to_cart = AddItemsToCard()
+    add_items_to_cart = AddItemsToCart()
 
     # GIVEN
     add_items_to_cart.open_browser_with_added_item(url="/16/1", data={
